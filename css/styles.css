@@ -42,6 +42,10 @@ body {
     box-flex: 1;
 }
 
+img{
+	width: 100px;
+}
+
 .header-button {
     position: absolute;
     top: 6;

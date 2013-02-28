@@ -1,6 +1,6 @@
 <html>
 <head>
-<script src="css/source-sans-pro.js"></script>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8">   
 <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -16,11 +16,11 @@
     <li><a href="#employees/{{this.id}}">{{this.firstName}} {{this.lastName}}<br/>{{this.title}}</a></li>
     {{/.}}
 </script>
-
+z
 <script id="employee-tpl" type="text/x-handlebars-template">
     <div class='header'><a href='#' class="button header-button header-button-left">Back</a><h1>Details</h1></div>
     <div class='details'>
-    <img id='image' src='img/{{firstName}}_{{lastName}}.jpg' style="float:left;margin:10px;"/>
+    <img id='image' src='img/{{firstName}}-{{lastName}}.jpg' style="float:left;margin:10px;"/>
     <h1>{{firstName}} {{lastName}}</h1>
     <h2>{{title}}</h2>
     <span class="location"></span>
@@ -29,7 +29,6 @@
     <li><a href="tel:{{cellPhone}}">Call Cell<br/>{{cellPhone}}</a></li>
     <li><a href="sms:{{cellPhone}}">SMS<br/>{{cellPhone}}</a></li>
     <li><a href="#" class="add-location-btn">Add Location</a></li>
-    <li><a href="#" class="add-contact-btn">Add to Contacts</a></li>
     <li><a href="#" class="change-pic-btn">Change Picture</a></li>
     </ul>
     </div>
