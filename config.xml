@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.coenraets.employeedirectory"
+        id        = "org.beno.knowitOsloApp"
         versionCode="10"
         version   = "1.1.0">
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Employee Directory</name>
+    <name>Knowit Oslo</name>
 
     <description>
-        A simple employee directory application
+        En demo app basert på http://coenraets.org/blog/phonegap-tutorial/
     </description>
 
-    <author href="http://coenraets.org" email="ccoenraets@gmail.com">
-        Christophe Coenraets
+    <author href="http://benonisen.net" email="benonisen@gmail.com">
+        Sindre Benonisen 
     </author>
-
+    
+    <icon src="logo.jpg" />
+        
+        <feature name="http://api.phonegap.com/1.0/camera"/>
+        <feature name="http://api.phonegap.com/1.0/contacts"/>
+        <feature name="http://api.phonegap.com/1.0/file"/>
+        <feature name="http://api.phonegap.com/1.0/geolocation"/>
+        <feature name="http://api.phonegap.com/1.0/media"/>
+        <feature name="http://api.phonegap.com/1.0/network"/>
+        <feature name="http://api.phonegap.com/1.0/notification"/>
 </widget>

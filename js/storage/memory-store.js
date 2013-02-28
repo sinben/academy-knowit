@@ -74,7 +74,7 @@ var MemoryStore = function(successCallback, errorCallback) {
  {"id": 39, "firstName": "Fred", "lastName": "Inge Henden", "title":"Knowit Objectnet", "managerId":42, "city":"Oslo", "cellPhone":"+4792494939", "officePhone":"+4792494939", "email":"fih@knowit.no"},
  {"id": 40, "firstName": "Fredrik", "lastName": "Vraalsen", "title":"Knowit Objectnet", "managerId":42, "city":"Oslo", "cellPhone":"+4798462255", "officePhone":"+4798462255", "email":"fvr@knowit.no"},
  {"id": 41, "firstName": "Gayathri", "lastName": "Saravanan", "title":"Systemutvikler", "managerId":42, "city":"Oslo", "cellPhone":"+4746895428", "officePhone":"+4746895428", "email":"gayathri.saravanan@knowit.no"},
- {"id": 42, "firstName": "Gorm", "lastName": "Steine-Eriksen", "title":"Daglig leder Knowit Reaktor Oslo AS", "managerId":42, "city":"Oslo", "cellPhone":"+4792493202", "officePhone":"+4792493202", "email":"gorm.steine-eriksen@knowit.no"},
+ {"id": 42, "firstName": "Gorm", "lastName": "Steine Eriksen", "title":"Daglig leder Knowit Reaktor Oslo AS", "managerId":42, "city":"Oslo", "cellPhone":"+4792493202", "officePhone":"+4792493202", "email":"gorm.steine-eriksen@knowit.no"},
  {"id": 43, "firstName": "Gunnar", "lastName": "Velle", "title":"Knowit Objectnet", "managerId":42, "city":"Oslo", "cellPhone":"+4793053583", "officePhone":"+4793053583", "email":"gv@knowit.no"},
  {"id": 44, "firstName": "Gøril", "lastName": "Foss Eriksen", "title":"Knowit Objectnet", "managerId":42, "city":"Oslo", "cellPhone":"+4797586286", "officePhone":"+4797586286", "email":"gfe@knowit.no"},
  {"id": 45, "firstName": "Haakon", "lastName": "Fougner Spilde", "title":"Knowit Objectnet", "managerId":42, "city":"Oslo", "cellPhone":"+4795789351", "officePhone":"+4795789351", "email":"hfs@knowit.no"},
